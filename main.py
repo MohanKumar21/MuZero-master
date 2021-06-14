@@ -14,7 +14,7 @@ import subprocess
 import fnmatch
 from tqdm import tqdm
 import random
-from reversi import *
+from reversi import * t
 torch.manual_seed(1261)
 random.seed(1261)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
